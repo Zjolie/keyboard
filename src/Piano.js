@@ -58,6 +58,8 @@ const Piano = () => {
 
   return (
     <div className="piano-container">
+      <img className="zjolie-logo" src="ZjolieLogo.png" />
+    <div className="piano-inner-container">
       <Instrument
         instrumentName={"acoustic_grand_piano"}
         startNote={"C3"}
@@ -102,6 +104,7 @@ const Piano = () => {
           A: "B5"
         }}
       />
+    </div>
     </div>
   );
 };

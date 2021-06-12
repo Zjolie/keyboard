@@ -11,7 +11,23 @@
   background: #444;
 }
 
+
+.zjolie-logo {
+  display: flex;
+  justify-content: flex-start;
+  height: 120px;
+}
+
 .piano-container {
+  display: inline-flex;
+  justify-content: flex-end;
+  border-top: 80px solid #000;
+  border-bottom: 30px solid #000;
+  border-left: 30px solid #000;
+  border-right: 30px solid #000;
+}
+
+.piano-inner-container {
   display: inline-flex;
   border-top: 10px solid rebeccapurple;
 }
