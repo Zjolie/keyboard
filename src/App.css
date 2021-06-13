@@ -19,8 +19,6 @@
 }
 
 .piano-container {
-  display: inline-flex;
-  justify-content: flex-end;
   border-top: 80px solid #000;
   border-bottom: 30px solid #000;
   border-left: 30px solid #000;
